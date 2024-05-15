@@ -1,0 +1,31 @@
+.filterNav {
+  border: 1px solid #f6f6f6;
+  padding: 10px 30px;
+  border-radius: 9px;
+  margin: 0 auto;
+}
+.filterNav svg {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.product {
+  background-color: #f6f6f6;
+  border-radius: 9px;
+  text-align: center;
+  min-height: 425px;
+  display: grid;
+  place-content: center;
+}
+.productImage {
+  width: 150px;
+  height: 180px;
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
+}
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
